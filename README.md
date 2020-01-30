@@ -19,10 +19,10 @@ pip install pygame
 ## Let's Make the Game
 
 1. Set Screen 
-'[x]' ake use of the display.set_mode() function
-'[x]' se of the init() and the quit() methods to initialize and uninitialize everything at the start and the end of the code
-'[x]' se update() method to update any changes made to the screen
-'[x]' se a while loop before quit() to correct screen time out error
+* [x] make use of the display.set_mode() function
+* [x] use of the init() and the quit() methods to initialize and uninitialize everything at the start and the end of the code
+* [x] use update() method to update any changes made to the screen
+* [x] use a while loop before quit() to correct screen time out error
 ```python 
 import pygame
 pygame.init()
