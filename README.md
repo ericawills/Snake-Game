@@ -38,8 +38,8 @@ quit()
 ```
 
 2. Create Snake
-'[x]' initialize a few color variables in order to color the snake, food, screen, etc.
-'[x]' Draw rectangles in to make our snake a rectangle using the function called draw.rect()
+* [x] initialize a few color variables in order to color the snake, food, screen, etc.
+* [x] Draw rectangles in to make our snake a rectangle using the function called draw.rect()
 ```python
 white = (255, 255, 255)
 yellow = (255, 255, 102)
@@ -54,10 +54,10 @@ while not game_over:
         if event.type==pygame.QUIT:
             game_over=True
     pygame.draw.rect(dis,blue,[200,150,10,10])
-    ```
+  ```
 3. Move Snake - use key events present in the KEYDOWN class of Pygame.
-*[x] use K_UP, K_DOWN, K_LEFT, and K_RIGHT to make the snake move up, down, left and right respectively
-*[x] hold the updating values of the x and y coordinates in newX and newY
+* [x] use K_UP, K_DOWN, K_LEFT, and K_RIGHT to make the snake move up, down, left and right respectively
+* [x] hold the updating values of the x and y coordinates in newX and newY
 ```python
 x1 = 300
 y1 = 300
@@ -84,10 +84,10 @@ while not game_over:
  
     x1 += newX
     y1 += newY
-    ```
+   ```
     
 4. Game Over Alert
-*[x] use an ‘if’ statement that defines the limits for the x and y coordinates of the snake to be less than or equal to that of the screen
+* [x] use an ‘if’ statement that defines the limits for the x and y coordinates of the snake to be less than or equal to that of the screen
 ```python     if x1 >= dis_width or x1 < 0 or y1 >= dis_height or y1 < 0:
         game_over = True
  
@@ -106,8 +106,8 @@ time.sleep(2)
 ```
 
 5. Adding the Food
-*[x] add food for the snake and create a message that says “Yummy!!”
-*[x] include option to quit the game or play again when the player loses
+* [x] add food for the snake and create a message that says “Yummy!!”
+* [x] include option to quit the game or play again when the player loses
 ```python snake_block = 10
 snake_speed = 30
  
@@ -177,10 +177,10 @@ def gameLoop():  # creating a function
         if x1 == foodx and y1 == foody:
             print("Yummy!!")
         clock.tick(snake_speed)
-        ```
+   ```
 6. Increase Length of the Snake
-*[x] use a list to create the snake length then increase the size of our sake when it eats the food 
-*[x] the game is over if the snake hits its own body
+* [x] use a list to create the snake length then increase the size of our sake when it eats the food 
+* [x] the game is over if the snake hits its own body
 ```python
 snake_List = []
     Length_of_snake = 1
@@ -241,7 +241,6 @@ snake_List = []
         our_snake(snake_block, snake_List)
  ```
 7. Display Score
-
 ```python
 Your_score(Length_of_snake - 1)
 ```
