@@ -19,10 +19,10 @@ pip install pygame
 ## Let's Make the Game
 
 1. Set Screen 
-*[x]* ake use of the display.set_mode() function
-*[x]* se of the init() and the quit() methods to initialize and uninitialize everything at the start and the end of the code
-*[x]* se update() method to update any changes made to the screen
-*[x]* se a while loop before quit() to correct screen time out error
+'[x]' ake use of the display.set_mode() function
+'[x]' se of the init() and the quit() methods to initialize and uninitialize everything at the start and the end of the code
+'[x]' se update() method to update any changes made to the screen
+'[x]' se a while loop before quit() to correct screen time out error
 ```python 
 import pygame
 pygame.init()
@@ -38,8 +38,8 @@ quit()
 ```
 
 2. Create Snake
-*[x] initialize a few color variables in order to color the snake, food, screen, etc.
-*[x] Draw rectangles in to make our snake a rectangle using the function called draw.rect()
+'[x]' initialize a few color variables in order to color the snake, food, screen, etc.
+'[x]' Draw rectangles in to make our snake a rectangle using the function called draw.rect()
 ```python
 white = (255, 255, 255)
 yellow = (255, 255, 102)
