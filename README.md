@@ -1,7 +1,7 @@
 # Snake Game
 > Basic arcade-style Snake using Python 3 and Pygame.
 
-The TipCalc calculator app is a modern application written in Node.js. The app provides standard calculations, as well as a set of customizable inputs to customize to your unique user experience.
+Learn how to create the infamous Snake Game step by step using the framework library of Pycharm.
 
 <img src="tip-calc-img.png">
 
