@@ -3,7 +3,7 @@
 
 Learn how to create the infamous Snake Game step by step using the framework library of Pycharm.
 
-<iframe src="https://giphy.com/embed/4JmTg4bTuofUQ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snake-gif-4JmTg4bTuofUQ">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/4JmTg4bTuofUQ/source.gif">
 
 
 ## Installation and Dependencies
