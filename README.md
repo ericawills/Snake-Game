@@ -1,7 +1,7 @@
 # Snake Game
 > Basic arcade-style Snake using Python 3 and Pygame.
 
-Learn how to create the infamous Snake Game step by step using the framework library of Pycharm.
+Learn how to create and MODIFY the infamous Snake Game step by step using the framework library of Pycharm.
 
 <img src="https://media.giphy.com/media/4JmTg4bTuofUQ/source.gif">
 
